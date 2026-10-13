@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="ERYNDOR — règles de la campagne D&D 5.5 : personnages, aventure, survie, monde persistant, économie, réputation et sessions.">
+    <title>Règles de la campagne — ERYNDOR</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="./favicon.svg">
+</head>
+<body>
+    <a class="skip" href="#contenu">Aller au contenu</a>
+
+    <div class="bandeau-haut"></div>
+
+    <header class="site">
+        <div class="titre-site">
+            <span class="sigille">E</span>
+            <h1>Eryndor</h1>
+        </div>
+        <div class="sous-titre">Règles de la campagne</div>
+        <nav class="menu-principal">
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="regles.html" class="actif">Règles</a></li>
+                <li><a href="aventuriers.html">Aventuriers</a></li>
+                <li><a href="pantheon.html">Panthéon</a></li>
+                <li><a href="regions.html">Régions</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="contenu">
+        <section>
+            <div class="citation">
+                « Les règles servent de cadre général ; le monde, lui, ne tient dans aucun cadre. »
+                <span class="attribution">— Avant-propos de la campagne</span>
+            </div>
+            <ul class="ancres">
+                <li><a href="#campagne">1 · La campagne</a></li>
+                <li><a href="#personnages">2 · Personnages</a></li>
+                <li><a href="#aventure">3 · Aventure</a></li>
+                <li><a href="#monde">4 · Monde</a></li>
+                <li><a href="#sessions">5 · Sessions</a></li>
+            </ul>
+        </section>
+
+        <div class="titre-partie"><span class="num">1.</span> La campagne</div>
+
+        <section id="campagne">
+            <div class="panier">
+                <p>Eryndor est une campagne de Donjons & Dragons 5.5 (édition 2024) se déroulant dans un <span class="nom">monde persistant</span> : les personnages, les factions et les territoires continuent d'évoluer même en dehors des sessions. La progression y est volontairement lente, les ressources sont limitées et les conséquences des actions peuvent marquer durablement le monde.</p>
+                <p>Les aventuriers ne sont pas destinés à devenir des héros légendaires du jour au lendemain. <span class="nom">Survivre</span>, bâtir une réputation, développer des alliances et laisser une trace dans l'histoire d'Eryndor demandent du temps, des efforts et parfois des sacrifices.</p>
+            </div>
+            <div class="panier or">
+                <h3>Autorité du Maître du Jeu</h3>
+                <p>Les règles présentées dans ce document servent de cadre général à la campagne. Le Maître du Jeu conserve la <span class="nom">décision finale</span> concernant l'interprétation des règles, la résolution des situations exceptionnelles et tout élément nécessaire au bon déroulement de la campagne.</p>
+            </div>
+            <div class="panier sang">
+                <h3>Modifications des règles</h3>
+                <p>Les règles de la campagne ne peuvent pas être modifiées au cours d'un scénario. Toute modification, ajout ou suppression de règle prend effet uniquement <span class="nom">entre deux scénarios</span>, après avoir été communiquée à l'ensemble des joueurs.</p>
+            </div>
+        </section>
+
+        <div class="titre-partie"><span class="num">2.</span> Personnages</div>
+
+        <section id="personnages">
+            <div class="panier">
+                <p><span class="nom">Un seul personnage actif par joueur.</span> La mort d'un personnage est <span class="nom">permanente</span> : aucun retour du même personnage n'est possible.</p>
+            </div>
+
+            <h3>Progression</h3>
+            <div class="panier or">
+                <ul class="puces">
+                    <li>L'<span class="nom">expérience (XP)</span> gagnée est réduite : <span class="nom">×0,1</span>.</li>
+                    <li>L'<span class="nom">or</span> gagné est réduit : <span class="nom">×0,1</span>.</li>
+                    <li>Toute expérience gagnée au cours d'un scénario est <span class="nom">répartie équitablement</span> entre tous les membres du groupe ayant participé à l'expédition, qu'il s'agisse de personnages joueurs ou de PNJ alliés.</li>
+                    <li>Les effets accordant directement de l'expérience par une potion, un objet magique ou tout autre effet surnaturel <span class="nom">ne sont pas concernés</span> par cette règle.</li>
+                </ul>
+            </div>
+
+            <h3>Mort</h3>
+            <div class="panier sang">
+                <p>Un personnage meurt lorsque ses points de vie atteignent une valeur négative égale à son <span class="nom">maximum de PV actuel</span>.</p>
+            </div>
+
+            <h3>Blessures</h3>
+            <div class="panier sang">
+                <ul class="puces">
+                    <li>Les blessures peuvent <span class="nom">persister dans le temps</span>.</li>
+                    <li>Sans soins appropriés, elles peuvent <span class="nom">s'infecter</span>.</li>
+                    <li>Les blessures ont des <span class="nom">conséquences mécaniques</span> simples.</li>
+                </ul>
+            </div>
+
+            <h3>Compagnons animaux</h3>
+            <div class="panier sylve">
+                <ul class="puces">
+                    <li>Seuls les personnages maîtrisant la compétence <span class="nom">Dressage</span> peuvent posséder un compagnon animal.</li>
+                    <li>Un personnage ne peut posséder qu'<span class="nom">un seul compagnon animal actif</span> à la fois.</li>
+                    <li>Les compagnons peuvent évoluer, changer de rôle ou devenir des PNJ importants.</li>
+                    <li>Les personnages possédant l'historique <span class="nom">Ermite</span> ou <span class="nom">Fermier</span>, ou appartenant aux classes <span class="nom">Druide</span> et <span class="nom">Rôdeur</span>, peuvent posséder davantage d'animaux domestiques, jusqu'à un maximum de <span class="nom">trois familiers</span>.</li>
+                </ul>
+            </div>
+
+            <h3>Règle spéciale — I Know a Guy</h3>
+            <div class="panier azur">
+                <p>Chaque joueur possède une <span class="nom">unique utilisation</span> de la règle « I Know a Guy ». Elle permet au joueur de déclarer qu'il connaît un PNJ pouvant potentiellement aider le groupe.</p>
+                <h4>Le joueur peut définir</h4>
+                <ul class="puces">
+                    <li>le type de relation ;</li>
+                    <li>le métier ;</li>
+                    <li>la personnalité générale ;</li>
+                    <li>le lien avec son personnage.</li>
+                </ul>
+                <h4>Le PNJ doit rester cohérent avec</h4>
+                <ul class="puces">
+                    <li>le lore du personnage ;</li>
+                    <li>son passé ;</li>
+                    <li>ses origines ;</li>
+                    <li>ses voyages ;</li>
+                    <li>ses affiliations ;</li>
+                    <li>ses relations connues.</li>
+                </ul>
+                <h4>Le Maître du Jeu conserve le contrôle final sur</h4>
+                <ul class="puces">
+                    <li>l'équilibrage ;</li>
+                    <li>l'intégration au monde ;</li>
+                    <li>les connaissances réelles du PNJ ;</li>
+                    <li>ses ressources ;</li>
+                    <li>ses intentions ;</li>
+                    <li>ses conséquences.</li>
+                </ul>
+            </div>
+        </section>
+
+        <div class="titre-partie"><span class="num">3.</span> Aventure</div>
+
+        <section id="aventure">
+            <h3>Armes équipées</h3>
+            <div class="panier">
+                <p>Un personnage peut porter autant d'armes qu'il le souhaite dans son équipement. En revanche, il ne peut y avoir que <span class="nom">quatre armes équipées</span> et immédiatement accessibles à la fois. Changer une arme non équipée suit les règles normales de Donjons & Dragons.</p>
+            </div>
+
+            <h3>Munitions</h3>
+            <div class="panier">
+                <p>Les munitions utilisées par les armes de tir ne sont <span class="nom">pas comptabilisées</span>. Les armes à lancer ainsi que les munitions ou projectiles spéciaux continuent d'utiliser les règles normales de Donjons & Dragons.</p>
+            </div>
+
+            <h3>Consommation de potions</h3>
+            <div class="panier">
+                <p>Consommer une potion est une <span class="nom">action bonus</span>.</p>
+            </div>
+
+            <h3>Survie</h3>
+            <div class="panier sylve">
+                <ul class="puces">
+                    <li>La <span class="nom">faim</span> et la <span class="nom">fatigue</span> sont prises en compte.</li>
+                    <li>Les conditions de <span class="nom">repos</span> et de <span class="nom">voyage</span> sont importantes.</li>
+                    <li>Les <span class="nom">ressources</span> doivent être gérées.</li>
+                </ul>
+                <div class="tableau-wrap">
+                    <table class="tableau">
+                        <caption>États de faim</caption>
+                        <thead>
+                            <tr><th>État</th><th>Effet</th></tr>
+                        </thead>
+                        <tbody>
+                            <tr><td class="cle-mut">Rassasié</td><td>Aucun effet.</td></tr>
+                            <tr><td class="cle-mut">Affamé</td><td>Désavantage aux tests de FOR et de CON.</td></tr>
+                            <tr><td class="cle-mut">Famine critique</td><td>Gain progressif des niveaux d'épuisement.</td></tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="tableau-wrap">
+                    <table class="tableau">
+                        <caption>États de fatigue</caption>
+                        <thead>
+                            <tr><th>État</th><th>Effet</th></tr>
+                        </thead>
+                        <tbody>
+                            <tr><td class="cle-mut">Reposé</td><td>Aucun effet.</td></tr>
+                            <tr><td class="cle-mut">Fatigué</td><td>Désavantage aux tests de Perception et d'Initiative.</td></tr>
+                            <tr><td class="cle-mut">Épuisement critique</td><td>Gain progressif des niveaux d'épuisement.</td></tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <h3>Jeu sur table et figurines</h3>
+            <div class="panier azur">
+                <p>La campagne se joue physiquement sur table à l'aide de <span class="nom">figurines</span>, de <span class="nom">décors</span> et de <span class="nom">terrains modulaires</span>. Le monde peut évoluer physiquement au fil des événements :</p>
+                <ul class="puces">
+                    <li>destruction de bâtiments ;</li>
+                    <li>nouvelles routes ;</li>
+                    <li>conquêtes ;</li>
+                    <li>fortifications ;</li>
+                    <li>expansion de factions.</li>
+                </ul>
+            </div>
+
+            <h3>Distances</h3>
+            <div class="panier">
+                <p>Les distances du système Donjons & Dragons sont adaptées au jeu sur table.</p>
+                <div class="formule">1 mètre en jeu = 1 pouce sur la table</div>
+                <p>Les déplacements et les portées sont mesurés au <span class="nom">mètre ruban</span> ou à la règle. Le terrain, les lignes de vue et les décors ont une importance majeure durant les combats et l'exploration.</p>
+            </div>
+        </section>
+
+        <div class="titre-partie"><span class="num">4.</span> Monde</div>
+
+        <section id="monde">
+            <h3>Monde persistant et vivant</h3>
+            <div class="panier">
+                <p>Le monde évolue en permanence, <span class="nom">même hors session</span>. Les factions, les villes et les personnages continuent d'agir entre les parties. Les événements sont résolus par le Maître du Jeu entre les sessions.</p>
+                <p>Les personnages non utilisés continuent d'exister dans le monde. Ils peuvent évoluer, changer de rôle ou devenir des PNJ importants.</p>
+            </div>
+
+            <h3>Temps morts entre les sessions</h3>
+            <div class="panier or">
+                <ul class="puces">
+                    <li>Fabriquer un objet magique</li>
+                    <li>Vendre des objets magiques</li>
+                    <li>Construire une place forte</li>
+                    <li>Gérer une entreprise</li>
+                    <li>Propager des rumeurs</li>
+                    <li>Faire la fête</li>
+                </ul>
+            </div>
+
+            <h3>Économie vivante</h3>
+            <div class="panier or">
+                <ul class="puces">
+                    <li>Les prix des biens ne sont <span class="nom">pas fixes</span> : ils évoluent selon l'offre, la demande et les événements du monde.</li>
+                    <li>Des achats ou des ventes en grande quantité peuvent <span class="nom">modifier durablement</span> la valeur de certains objets, ressources ou marchandises dans une région.</li>
+                    <li>Chaque marché possède <span class="nom">sa propre économie</span> : un objet courant dans une ville peut être rare et plus coûteux dans une autre.</li>
+                </ul>
+            </div>
+
+            <h3>Temps et calendrier</h3>
+            <div class="panier azur">
+                <p>Le calendrier d'Eryndor régit les saisons, les cycles lunaires et la vie des Marches.</p>
+                <div class="chiffres">
+                    <div class="chiffre"><span class="valeur">364</span><span class="legende">Jours par année</span></div>
+                    <div class="chiffre"><span class="valeur">13</span><span class="legende">Mois de 28 jours</span></div>
+                    <div class="chiffre"><span class="valeur">4</span><span class="legende">Semaines de 7 jours par mois</span></div>
+                </div>
+                <p>Chaque mois correspond à un <span class="nom">cycle lunaire complet</span>.</p>
+            </div>
+
+            <h3>Religion</h3>
+            <div class="panier">
+                <p>Les <span class="nom">divinités</span> existent et influencent le monde. Les cultes et les religions sont des <span class="nom">factions actives</span> — voir le <a href="pantheon.html">Panthéon</a>.</p>
+            </div>
+
+            <h3>Réputation</h3>
+            <div class="panier">
+                <p>Chaque personnage possède <span class="nom">sa propre réputation</span>. Les groupes d'aventuriers peuvent également développer une <span class="nom">réputation commune</span> selon leurs actions, leurs alliances et leur comportement.</p>
+                <p>La réputation évolue selon :</p>
+                <ul class="puces">
+                    <li>les choix effectués ;</li>
+                    <li>les rumeurs ;</li>
+                    <li>les contrats réussis ou échoués ;</li>
+                    <li>les crimes ;</li>
+                    <li>les alliances ;</li>
+                    <li>les actes publics.</li>
+                </ul>
+            </div>
+
+            <h3>Factions et criminalité</h3>
+            <div class="panier sang">
+                <ul class="puces">
+                    <li>Chaque <span class="nom">faction</span> possède sa propre opinion des personnages.</li>
+                    <li>Une <span class="nom">bonne réputation</span> peut permettre d'obtenir des informations, des réductions, des contrats ou l'accès à certaines zones.</li>
+                    <li>Une <span class="nom">mauvaise réputation</span> peut entraîner une surveillance accrue, des refus d'accès, des primes, des attaques ou une chasse à l'homme.</li>
+                    <li>Les autorités ne disposent pas d'une connaissance parfaite du monde : un <span class="nom">criminel peut rester anonyme</span> si son identité n'est pas découverte.</li>
+                    <li>Certaines réputations peuvent rester <span class="nom">limitées à des milieux spécifiques</span>, comme les réseaux criminels, les mercenaires ou certaines factions.</li>
+                </ul>
+            </div>
+        </section>
+
+        <div class="titre-partie"><span class="num">5.</span> Sessions</div>
+
+        <section id="sessions">
+            <div class="grille">
+                <div class="carte">
+                    <h3>Groupe</h3>
+                    <p class="metier">Taille de la table</p>
+                    <p>Les sessions sont limitées à <span class="nom">4 à 6 joueurs actifs</span>.</p>
+                </div>
+                <div class="carte">
+                    <h3>Téléphones</h3>
+                    <p class="metier">Étiquette de table</p>
+                    <p>Les téléphones et appareils électroniques doivent rester <span class="nom">rangés</span> durant les sessions. L'utilisation des téléphones à des fins non liées à la partie est interdite.</p>
+                    <p>Ils peuvent être utilisés pour consulter une fiche de personnage, vérifier une règle ou pour toute autre raison <span class="nom">validée par le Maître du Jeu</span>.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site">
+        <div class="pied">
+            <span>ERYNDOR — Règles de la campagne</span>
+            <span class="sceau">LE DERNIER MOT REVIENT AU MJ</span>
+        </div>
+    </footer>
+</body>
+</html>
